@@ -1,11 +1,11 @@
-# `sencha-registry`
+# `pinnata-positions-registry`
 
-Fetches and caches all known Sencha pools.
+Fetches and caches all known Pinnata positions.
 
 ## Usage
 
 ```bash
-# Fetch data from Solana
+# Fetch data from Celo
 yarn registry:sync
 ```
 

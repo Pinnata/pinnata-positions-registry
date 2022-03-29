@@ -2,5 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type { HomoraBank } from "./HomoraBank";
+export type { Multicall2 } from "./Multicall2";
 export * as factories from "./factories";
 export { HomoraBank__factory } from "./factories/HomoraBank__factory";
+export { Multicall2__factory } from "./factories/Multicall2__factory";

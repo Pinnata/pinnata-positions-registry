@@ -2,3 +2,4 @@
 /* tslint:disable */
 /* eslint-disable */
 export { HomoraBank__factory } from "./HomoraBank__factory";
+export { Multicall2__factory } from "./Multicall2__factory";
