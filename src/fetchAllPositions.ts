@@ -97,12 +97,14 @@ export const fetchAllPositons = async (): Promise<void> => {
     ).flatMap((c) => c?.returnData);
   };
 
-  const calls = [...Array(nextPositionID?.toNumber() ?? 0).keys()].map((n) => ({
-    target: bankContract?.address,
-    callData: bankContract?.interface.encodeFunctionData("getPositionInfo", [
-      n + 1,
-    ]),
-  }));
+  const calls = [...Array(nextPositionID?.toNumber() - 1 ?? 0).keys()].map(
+    (n) => ({
+      target: bankContract?.address,
+      callData: bankContract?.interface.encodeFunctionData("getPositionInfo", [
+        n + 1,
+      ]),
+    })
+  );
 
   const ownerMap = (await getMulticallDataChunked(calls)).map(
     (returnData, i) => {
