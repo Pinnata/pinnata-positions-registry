@@ -1,10 +1,10 @@
 {
-  "name": "@senchahq/sencha-registry",
+  "name": "@pinnata/pinnata-position-registry",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:senchahq/sencha-registry.git",
-  "author": "Johanna Johansson <jj@sencha.so>",
+  "repository": "git@github.com:Pinnata/pinnata-position-registry.git",
+  "author": "Kyle Scott <kyle@dahlia.finance>",
   "license": "AGPL-3.0",
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
@@ -57,8 +57,5 @@
   "lint-staged": {
     "*.ts": "eslint --cache --fix",
     "*.{md,json,js,yml,yaml}": "prettier --write"
-  },
-  "resolutions": {
-    "@pinnata/pinnata-config": "portal:/Users/kylescott/src/pinnata-config-registry"
   }
 }

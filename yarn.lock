@@ -700,9 +700,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pinnata/pinnata-config@portal:/Users/kylescott/src/pinnata-config-registry::locator=%40senchahq%2Fsencha-registry%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@pinnata/pinnata-config@portal:/Users/kylescott/src/pinnata-config-registry::locator=%40senchahq%2Fsencha-registry%40workspace%3A."
+"@pinnata/pinnata-config@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@pinnata/pinnata-config@npm:0.1.1"
   dependencies:
     "@dahlia-labs/celo-contrib": ^0.3.1
     "@dahlia-labs/celo-tokens": ^0.3.1
@@ -725,45 +725,13 @@ __metadata:
     tslib: ^2.3.1
     typechain: ^8.0.0
     typedoc: ^0.22.15
-  languageName: node
-  linkType: soft
-
-"@rushstack/eslint-patch@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@rushstack/eslint-patch@npm:1.1.3"
-  checksum: 53752d1e34e45a91b30a016b837c33054fcbd0a295c0312b0812dab78289ea680d7c0c3f19c1f885f49764d416727747133765ff5bfce31a9c4cc93c7a56ebe1
+  checksum: d0c3b09c6c0f21c37d0c10e5bae7ecd713ce91269864ac0fd1134b335259d3b57f43e8c98afb4c0b6f7127ec98642d1ad35cc1dc8d055ab381a2e6d31126f56b
   languageName: node
   linkType: hard
 
-"@saberhq/eslint-config@npm:^1.12.61":
-  version: 1.12.61
-  resolution: "@saberhq/eslint-config@npm:1.12.61"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^5.19.0
-    "@typescript-eslint/parser": ^5.19.0
-    eslint-config-prettier: ^8.5.0
-    eslint-import-resolver-node: ^0.3.6
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-simple-import-sort: ^7.0.0
-    eslint-plugin-unused-imports: ^2.0.0
-    prettier: ^2.6.2
-  peerDependencies:
-    eslint: ">=7"
-  checksum: 84a10dda5e0a5555e9347b472bcf96d7835f32cb5f2f4e6c81c794438a8d0289a3c0aafe662b41115f470b7eceed83f5f7319eecb2e13f8b2a12f89eac09bbdf
-  languageName: node
-  linkType: hard
-
-"@saberhq/tsconfig@npm:^1.12.61":
-  version: 1.12.61
-  resolution: "@saberhq/tsconfig@npm:1.12.61"
-  checksum: 73e13da1ed19a05161e3cee985660155dd0c6c6a765ea8b3d2e6c52647007b46a8f102419636817a84a74ee56bb3448e7e49b171ab66f50cfa617ce2e26f4da2
-  languageName: node
-  linkType: hard
-
-"@senchahq/sencha-registry@workspace:.":
+"@pinnata/pinnata-position-registry@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@senchahq/sencha-registry@workspace:."
+  resolution: "@pinnata/pinnata-position-registry@workspace:."
   dependencies:
     "@dahlia-labs/celo-contrib": ^0.3.2
     "@ethersproject/abi": ^5.6.1
@@ -799,6 +767,39 @@ __metadata:
     typescript: ^4.5.2
   languageName: unknown
   linkType: soft
+
+"@rushstack/eslint-patch@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@rushstack/eslint-patch@npm:1.1.3"
+  checksum: 53752d1e34e45a91b30a016b837c33054fcbd0a295c0312b0812dab78289ea680d7c0c3f19c1f885f49764d416727747133765ff5bfce31a9c4cc93c7a56ebe1
+  languageName: node
+  linkType: hard
+
+"@saberhq/eslint-config@npm:^1.12.61":
+  version: 1.12.61
+  resolution: "@saberhq/eslint-config@npm:1.12.61"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ^5.19.0
+    "@typescript-eslint/parser": ^5.19.0
+    eslint-config-prettier: ^8.5.0
+    eslint-import-resolver-node: ^0.3.6
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-simple-import-sort: ^7.0.0
+    eslint-plugin-unused-imports: ^2.0.0
+    prettier: ^2.6.2
+  peerDependencies:
+    eslint: ">=7"
+  checksum: 84a10dda5e0a5555e9347b472bcf96d7835f32cb5f2f4e6c81c794438a8d0289a3c0aafe662b41115f470b7eceed83f5f7319eecb2e13f8b2a12f89eac09bbdf
+  languageName: node
+  linkType: hard
+
+"@saberhq/tsconfig@npm:^1.12.61":
+  version: 1.12.61
+  resolution: "@saberhq/tsconfig@npm:1.12.61"
+  checksum: 73e13da1ed19a05161e3cee985660155dd0c6c6a765ea8b3d2e6c52647007b46a8f102419636817a84a74ee56bb3448e7e49b171ab66f50cfa617ce2e26f4da2
+  languageName: node
+  linkType: hard
 
 "@sindresorhus/is@npm:^4.0.0":
   version: 4.6.0
