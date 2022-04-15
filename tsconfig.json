@@ -14,5 +14,6 @@
     "noEmit": true,
     "lib": ["ES2019"]
   },
-  "include": ["src/"]
+  "include": ["src/"],
+  "exclude": ["src/generated"]
 }
