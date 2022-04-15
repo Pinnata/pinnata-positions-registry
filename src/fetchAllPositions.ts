@@ -1,9 +1,11 @@
+import { ChainId, Multicall } from "@dahlia-labs/celo-contrib";
 import { getAddress } from "@ethersproject/address";
 import { AddressZero } from "@ethersproject/constants";
 import type { ContractInterface } from "@ethersproject/contracts";
 import { Contract } from "@ethersproject/contracts";
 import type { JsonRpcProvider } from "@ethersproject/providers";
 import { StaticJsonRpcProvider } from "@ethersproject/providers";
+import { BankAddress } from "@pinnata/pinnata-config";
 import * as fs from "fs/promises";
 import { chunk } from "lodash";
 import invariant from "tiny-invariant";
@@ -55,7 +57,7 @@ function useContract(
 
 function useBankContract(provider: JsonRpcProvider): HomoraBank | null {
   return useContract(
-    "0x827cCeA3D460D458393EEAfE831698d83FE47BA7",
+    BankAddress[ChainId.Mainnet],
     HOMORA_BANK_ABI.abi,
     provider
   ) as HomoraBank | null;
@@ -63,7 +65,7 @@ function useBankContract(provider: JsonRpcProvider): HomoraBank | null {
 
 export function useMulticall(provider: JsonRpcProvider): Multicall2 | null {
   return useContract(
-    "0x9aac9048fC8139667D6a2597B902865bfdc225d3",
+    Multicall[ChainId.Mainnet],
     MULTICALL_ABI,
     provider
   ) as Multicall2 | null;
