@@ -691,9 +691,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pinnata/pinnata-config@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@pinnata/pinnata-config@npm:0.2.2"
+"@pinnata/pinnata-config@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@pinnata/pinnata-config@npm:0.3.0"
   dependencies:
     "@dahlia-labs/celo-contrib": ^0.3.3
     "@dahlia-labs/celo-tokens": ^0.3.3
@@ -709,6 +709,7 @@ __metadata:
     "@typechain/ethers-v5": ^10.0.0
     "@yarnpkg/doctor": ^4.0.0-rc.2
     bn.js: ^5.2.0
+    cross-env: ^7.0.3
     ethers: ^5.6.4
     jsbi: ^4.2.1
     lodash: ^4.17.21
@@ -716,7 +717,7 @@ __metadata:
     tslib: ^2.3.1
     typechain: ^8.0.0
     typedoc: ^0.22.15
-  checksum: e7c6b48d75f3eefe6c5afb3cfc23870693e7d5524db941740c56f380b1039e4a6b564ad1d548571d2a1f10fb507cf787c323c8ca2793bebda0311aff57dac3c5
+  checksum: 51f333226aa8dfa499190406b77c60dbc30a77e008cf3ec477ee9c1da42198d7a5af041074c359b70623b91d039aabf15ebcb0ab43458609bb829c880003f3e0
   languageName: node
   linkType: hard
 
@@ -732,7 +733,7 @@ __metadata:
     "@ethersproject/constants": ^5.6.0
     "@ethersproject/contracts": ^5.6.0
     "@ethersproject/providers": ^5.6.4
-    "@pinnata/pinnata-config": ^0.2.2
+    "@pinnata/pinnata-config": ^0.3.0
     "@rushstack/eslint-patch": ^1.1.3
     "@saberhq/eslint-config": ^1.12.61
     "@typechain/ethers-v5": ^10.0.0
@@ -2297,7 +2298,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:7.0.3, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+"cross-env@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "cross-env@npm:7.0.3"
+  dependencies:
+    cross-spawn: ^7.0.1
+  bin:
+    cross-env: src/bin/cross-env.js
+    cross-env-shell: src/bin/cross-env-shell.js
+  checksum: 26f2f3ea2ab32617f57effb70d329c2070d2f5630adc800985d8b30b56e8bf7f5f439dd3a0358b79cee6f930afc23cf8e23515f17ccfb30092c6b62c6b630a79
+  languageName: node
+  linkType: hard
+
+"cross-spawn@npm:7.0.3, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
   dependencies:
