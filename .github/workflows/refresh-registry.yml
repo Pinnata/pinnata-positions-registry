@@ -30,8 +30,8 @@ jobs:
       - run: yarn registry:sync
       - run: |
           if [ "$(git diff-index HEAD)" != '' ]; then
-            git config --global user.email "pinnata positions-bot@dahlia.finance"
-            git config --global user.name "Pinnata Positions"
+            git config --global user.email "teasegrizzley@protonmail.com"
+            git config --global user.name "teaseGrizzley"
             git add .
             git commit -m "Update list"
             git push origin HEAD
