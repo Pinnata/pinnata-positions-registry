@@ -1,5 +1,5 @@
 {
-  "nextPositionID": 2599,
+  "nextPositionID": 2600,
   "ownerMap": [
     {
       "positionID": 1,
@@ -10392,6 +10392,10 @@
     {
       "positionID": 2598,
       "owner": "0x531981B678e26B9B051a20832713ff057bF71668"
+    },
+    {
+      "positionID": 2599,
+      "owner": "0xf163aD3C908D158924F0eD0f6ea26EE76951eDef"
     }
   ]
 }
