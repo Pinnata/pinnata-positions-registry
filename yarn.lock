@@ -162,30 +162,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dahlia-labs/celo-contrib@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@dahlia-labs/celo-contrib@npm:0.3.1"
+"@dahlia-labs/celo-contrib@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@dahlia-labs/celo-contrib@npm:0.3.3"
   dependencies:
     tslib: ^2.3.1
-  checksum: 702b435b99fba1a3de03aa02ff1996617e1e0af62fcf85859e254b9fe14b180e02265ab11085c281b9f9ae5381508388cc033a2e7b0b7de341e0f2d1919ec42a
+  checksum: 2c98dca6b9b0f4e2eff5dbc3e607ad09730e33af3611754b71fd92247982e5c9a8fc9f1741878e58b0695f73743d61f746a1f4632268dda5642510badbde6238
   languageName: node
   linkType: hard
 
-"@dahlia-labs/celo-contrib@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@dahlia-labs/celo-contrib@npm:0.3.2"
+"@dahlia-labs/celo-tokens@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@dahlia-labs/celo-tokens@npm:0.3.3"
   dependencies:
-    tslib: ^2.3.1
-  checksum: 344d0a1b54db9590650fe3fa82af65560dd8d15437b6f402fda0587cd9ef0482fcce74b3181d6d9027d2c0886c534231f7b79eb8ffefb3507e37353c695fd0e4
-  languageName: node
-  linkType: hard
-
-"@dahlia-labs/celo-tokens@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@dahlia-labs/celo-tokens@npm:0.3.1"
-  dependencies:
-    "@dahlia-labs/celo-contrib": ^0.3.1
-    "@dahlia-labs/token-utils": ^0.3.1
+    "@dahlia-labs/celo-contrib": ^0.3.3
+    "@dahlia-labs/token-utils": ^0.3.3
     "@ubeswap/token-math": ^4.4.6
     lodash.mapvalues: ^4.6.0
     tiny-invariant: ^1.2.0
@@ -193,22 +184,22 @@ __metadata:
   peerDependencies:
     bn.js: ^4 || ^5
     jsbi: ^3 || ^4
-  checksum: 2a0be564a6951da1d14aea7d3268c858e80afa03d350c4d60aac4835f3e54064fef4f15e2ecb9ca1426f40b36c1fa1e2b3edbaa6f8c4c71175fe2cea09fb094b
+  checksum: bde74f5302d9e9c26e61d1fea6929374e2e9998057cadf76e5cc677ecf4b10baf123aae8b568f45165220e918d47bd68e2e7dcc910f2737dc3a4f0c3d062819f
   languageName: node
   linkType: hard
 
-"@dahlia-labs/token-utils@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@dahlia-labs/token-utils@npm:0.3.1"
+"@dahlia-labs/token-utils@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@dahlia-labs/token-utils@npm:0.3.3"
   dependencies:
-    "@dahlia-labs/celo-contrib": ^0.3.1
+    "@dahlia-labs/celo-contrib": ^0.3.3
     "@ubeswap/token-math": ^4.4.6
     tiny-invariant: ^1.2.0
     tslib: ^2.3.1
   peerDependencies:
     bn.js: ^4 || ^5
     jsbi: ^3 || ^4
-  checksum: 43710083a895180fbffa0b7a3b4f88ff07057b3eb891e32559e44509cacb94df5911751b2332213568cfa28b8895f4e262903a515c81167ebbbc1861adb2b8da
+  checksum: 1fc2dff06434c614a71b1b39b4b99475a1831332516488f3a89e8fa4216c1a6ca08968de12d3974c056b3b8c957c3ff28c7d1ab0fbd9cc36d9466bc125568459
   languageName: node
   linkType: hard
 
@@ -700,13 +691,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pinnata/pinnata-config@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@pinnata/pinnata-config@npm:0.2.1"
+"@pinnata/pinnata-config@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@pinnata/pinnata-config@npm:0.2.2"
   dependencies:
-    "@dahlia-labs/celo-contrib": ^0.3.1
-    "@dahlia-labs/celo-tokens": ^0.3.1
-    "@dahlia-labs/token-utils": ^0.3.1
+    "@dahlia-labs/celo-contrib": ^0.3.3
+    "@dahlia-labs/celo-tokens": ^0.3.3
+    "@dahlia-labs/token-utils": ^0.3.3
     "@ethersproject/abi": ^5.6.1
     "@ethersproject/address": ^5.6.0
     "@ethersproject/bignumber": ^5.6.0
@@ -725,7 +716,7 @@ __metadata:
     tslib: ^2.3.1
     typechain: ^8.0.0
     typedoc: ^0.22.15
-  checksum: f7362f7ad98752162aacba743a79aeb67e4321cf63559efa65f295ecc2ca145410db34155a38121b30015e03e5cdab6d9511b3545b4ade19cfe4a6470daaf186
+  checksum: e7c6b48d75f3eefe6c5afb3cfc23870693e7d5524db941740c56f380b1039e4a6b564ad1d548571d2a1f10fb507cf787c323c8ca2793bebda0311aff57dac3c5
   languageName: node
   linkType: hard
 
@@ -733,7 +724,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pinnata/pinnata-position-registry@workspace:."
   dependencies:
-    "@dahlia-labs/celo-contrib": ^0.3.2
+    "@dahlia-labs/celo-contrib": ^0.3.3
     "@ethersproject/abi": ^5.6.1
     "@ethersproject/address": ^5.6.0
     "@ethersproject/bignumber": ^5.6.0
@@ -741,7 +732,7 @@ __metadata:
     "@ethersproject/constants": ^5.6.0
     "@ethersproject/contracts": ^5.6.0
     "@ethersproject/providers": ^5.6.4
-    "@pinnata/pinnata-config": ^0.2.1
+    "@pinnata/pinnata-config": ^0.2.2
     "@rushstack/eslint-patch": ^1.1.3
     "@saberhq/eslint-config": ^1.12.61
     "@typechain/ethers-v5": ^10.0.0
