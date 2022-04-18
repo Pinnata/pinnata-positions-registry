@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/yarn
+      - run: yarn typechain
       - run: yarn build
       - run: yarn typecheck
 
@@ -20,12 +21,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/yarn
+      - run: yarn typechain
       - run: yarn build
       - run: yarn lint:ci
-
-  doctor:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/actions/yarn
-      - run: yarn doctor:packages

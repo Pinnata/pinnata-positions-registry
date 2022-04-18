@@ -6,4 +6,7 @@
 !.yarn/versions
 .pnp.*
 
+src/generated/
+dist/
+
 .eslintcache
