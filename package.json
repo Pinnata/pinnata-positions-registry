@@ -39,7 +39,7 @@
     "@yarnpkg/doctor": "^4.0.0-rc.2",
     "bn.js": "^5.2.0",
     "ethers": "^5.6.4",
-    "jsbi": "^4.2.1",
+    "jsbi": "^4.3.0",
     "lodash": "^4.17.21",
     "tiny-invariant": "^1.2.0",
     "typechain": "^8.0.0"
